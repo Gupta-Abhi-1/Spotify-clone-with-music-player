@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <title>Spotify-Web Player: Music for everyone!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+      <!-- font awesome icons link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+   
+
+</head>
+<body>
+   <div class="main">
+    <div class="side_bar"> 
+        <div class="one">
+            <ul>
+                <li><i class="fa-brands fa-spotify"></i>  Spotify</li>
+                <li><i class="fa-solid fa-house"></i> &nbsp;&nbsp; Home</li>
+                <li><i class="fa-solid fa-magnifying-glass" id="search"></i> &nbsp;&nbsp;Search</li>
+            </ul>
+        </div>
+        <div class="two">
+            <img src="./images/library_icon.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your Library
+            <i class="fa-solid fa-plus" id="add"></i>
+            <div class="two-1">
+           Create your first playlist<br>
+                It's easy,we'll help you <br>
+                <button>Create playlist</button>
+            </div>
+            <div class="two-2">
+              Let's find some podcats to follow <br>
+                we'll keep you updated on new episodes <br>
+                <button>Browse podcasts</button>
+            </div>
+        </div>
+    </div>
+    <div class="main_content">
+         <div class="navbar">
+            <span class="ticks">
+                <img src="./images/backward_icon.png" alt="">
+            </span>
+            <span class="ticks">
+                <img src="./images/forward_icon.png" alt="">
+            </span>
+                   
+            <div class="navbar-btn">
+              <div class="singup"><a href="#">Sign Up</a></div> 
+              <div class="log-in"><button style="opacity: 1;">Log in</button></div>
+            </div>
+            
+         </div>
+                <div class="card-1">
+                  
+                      <div class="play-btn">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                  
+                    <img src="./images/card1img.jpeg" alt="...">
+                     <h4>Top 50-Global</h4>
+                      <p>Your daily update of the <br>most played tracks right...</p>
+                </div>
+                      <h2>Trending songs near you</h2>
+                   <div class="card-container" style="display: flex;">
+                        <div class="card-1" style="margin-right: 20px;">
+                          
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                              </div>
+                            <img src="./images/card2img.jpeg" alt="...">
+                             <h4>Mahiye Jinna Sona</h4>
+                              <p>sung and composed by- <br><h4>DARSAN RAWAL</h4></p>
+                        </div>
+                            <div class="card-1" style="margin-right: 20px;">
+                              
+                                <div class="play-btn">
+                                    <i class="fa-solid fa-play"></i>
+                                  </div>
+                                <img src="./images/card3img.jpeg" alt="...">
+                                 <h4>Mere Pass Tum Ho</h4>
+                                  <p>LOFI MIX-1 , Min music</p>
+                         </div>
+                                <div class="card-1">
+                                 
+                                    <div class="play-btn">
+                                        <i class="fa-solid fa-play"></i>
+                                      </div>
+                                    <img src="./images/card4img.jpeg" alt="...">
+                                     <h4>Alter Ego NAA Reddy</h4>
+                                      <p>music by- Sony music company</p>
+                                </div>
+                   </div>
+                      <h2>Featuring Local & Global Songs:</h2>
+                   <div class="card-container-2" style="display: flex; margin-bottom: 100px;">
+                    <div class="card-1" style="margin-right: 20px;">
+                     
+                        <div class="play-btn">
+                            <i class="fa-solid fa-play"></i>
+                          </div>
+                        <img src="./images/card5img.jpeg" alt="...">
+                         <h4>Top Global Songs</h4>
+                          <p>LOFI MIX-1 , Min music</p>
+                 </div>
+                 <div class="card-1">
+                  
+                    <div class="play-btn">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                    <img src="./images/card6img.jpeg" alt="...">
+                     <h4>Top Indian Songs</h4>
+                      <p>LOFI MIX-2 , Min music</p>
+             </div>
+                   </div>
+                   <div class="spotify_playlist"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1E357e8jDwUaiM?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+               
+    </div>
+    <div class="music_player">
+        <div class="music-1"></div>
+        <div class="music-2">
+          <div class="music_icons">  
+            <span id="icons"><i class="fa-solid fa-shuffle"></i></span> &nbsp;&nbsp;&nbsp;
+            <span id="icons"><i class="fa-solid fa-backward-step"></i></span> &nbsp;&nbsp;&nbsp;
+            <span><i class="fa-solid fa-play" style="opacity: 1;"></i></span> &nbsp;&nbsp;&nbsp;
+            <span id="icons"><i class="fa-solid fa-forward-step"></i></span> &nbsp;&nbsp;&nbsp;
+            <span id="icons"><i class="fa-solid fa-repeat"></i></span>
+           </div>
+           <div class="time" style="margin-left: 50px; margin-top: 2px;">
+              <span class="min_time">00:00</span>
+               <input type="range" min="0" max="100" class="progress_bar">
+               <span class="max_time">3:30</span>
+           </div>
+        </div>
+        <div class="music-3">
+           <span id="icons-3"><i class="fa-solid fa-microphone"></i></span>&nbsp;&nbsp;
+           <span id="icons-3"><i class="fa-solid fa-list"></i></span>&nbsp;&nbsp;
+           <span id="icons-3"><i class="fa-solid fa-mobile"></i></span>&nbsp;&nbsp;
+           <span><i class="fa-solid fa-volume-high" style="opacity: 0.4;"></i></span>
+        </div>
+    </div>
+   </div>
+      
+     <script src="spoto.js"></script>
+</body>
+</html>
